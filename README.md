@@ -15,9 +15,16 @@ Website pentru o cafenea, realizat în PHP + HTML + Bootstrap, pornind de la tem
 ### Ce conține site-ul
 
 - Pagină principală (`index.php`) cu prezentare, meniu, galerie și formulare de comandă / contact
+
 - Pagină meniu (`menu.php`)
 - Pagină galerie foto (`gallery.php`)
 - Formular de **comandă** ("Fă o comandă") și formular de **contact**
+
+### Screenshots
+
+![Home page](docs/screenshots/home.png)
+![Menu](docs/screenshots/menu.png)
+![Gallery](docs/screenshots/gallery.png)
 
 ### Cum funcționează formularele
 
