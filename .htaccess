@@ -1,0 +1,14 @@
+DirectoryIndex index.php index.html
+
+# Blochează accesul direct din browser la orice fișier care ar putea conține
+# date trimise de utilizatori prin formulare (comenzi, mesaje de contact).
+<FilesMatch "\.(log|jsonl|csv|txt)$">
+  Require all denied
+</FilesMatch>
+
+# Blochează accesul direct la întregul folder de stocare a datelor, ca strat suplimentar
+<IfModule mod_authz_core.c>
+  <If "%{REQUEST_URI} =~ m#^/storage/#">
+    Require all denied
+  </If>
+</IfModule>

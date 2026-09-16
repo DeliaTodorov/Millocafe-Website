@@ -1,0 +1,18 @@
+Tema: CGI - completare proiect MilloCafe
+
+Au fost realizate sarcinile:
+1. Formularele „Fă o comandă” și „Contact” trimit datele pe server prin metoda POST.
+2. A fost creat scriptul CGI: cgi-bin/process_form.cgi
+3. Datele introduse de utilizatori se salvează în folderul storage:
+   - cgi_orders.csv pentru comenzi
+   - cgi_contacts.csv pentru mesaje de contact
+   - cgi_submissions.txt pentru toate trimiterile în format text
+4. A fost adăugată validarea JavaScript în assets/js/main.js:
+   - validateOrderForm()
+   - validateContactForm()
+
+Pentru rulare pe server local Apache:
+- proiectul trebuie pus în htdocs/www;
+- serverul trebuie să permită CGI;
+- fișierul cgi-bin/process_form.cgi trebuie să fie executabil;
+- folderul storage trebuie să aibă permisiune de scriere.

@@ -1,0 +1,29 @@
+## MilloCafe — reguli git pentru a nu urca date sensibile sau fișiere generate
+
+# Date personale trimise prin formulare (contact/comandă) — NU trebuie pe GitHub
+/storage/
+storage/
+*.log
+*.jsonl
+*.csv
+contact_messages.txt
+form_data.txt
+orders.txt
+cgi_orders.csv
+cgi_contacts.csv
+cgi_submissions.txt
+
+# Fișiere de sistem / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Dependențe eventuale (dacă adaugi vreodată npm/composer)
+node_modules/
+vendor/composer/
+
+# Fișiere temporare
+*.tmp
+*.bak
