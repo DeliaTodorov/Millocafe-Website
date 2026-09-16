@@ -12,19 +12,18 @@
 
 Website pentru o cafenea, realizat în PHP + HTML + Bootstrap, pornind de la template-ul gratuit **"Delicious"** de la [BootstrapMade](https://bootstrapmade.com/) (licență distribuită liber, cu obligația de a păstra linkurile de atribuire din footer — păstrate în acest proiect).
 
+### Screenshots
+
+| Acasă | Meniu | Galerie |
+|---|---|---|
+| ![Pagina principală](docs/screenshots/home.png) | ![Meniu](docs/screenshots/menu.png) | ![Galerie](docs/screenshots/gallery.png) |
+
 ### Ce conține site-ul
 
 - Pagină principală (`index.php`) cu prezentare, meniu, galerie și formulare de comandă / contact
-
 - Pagină meniu (`menu.php`)
 - Pagină galerie foto (`gallery.php`)
 - Formular de **comandă** ("Fă o comandă") și formular de **contact**
-
-### Screenshots
-
-![Home page](docs/screenshots/home.png)
-![Menu](docs/screenshots/menu.png)
-![Gallery](docs/screenshots/gallery.png)
 
 ### Cum funcționează formularele
 
@@ -85,6 +84,12 @@ Template original: **Delicious** by [BootstrapMade](https://bootstrapmade.com/) 
 ## English
 
 A café website built with PHP + HTML + Bootstrap, based on the free **"Delicious"** template by [BootstrapMade](https://bootstrapmade.com/) (freely distributed license, requiring the footer attribution links to be kept — preserved in this project).
+
+### Screenshots
+
+| Home | Menu | Gallery |
+|---|---|---|
+| ![Home page](docs/screenshots/home.png) | ![Menu](docs/screenshots/menu.png) | ![Gallery](docs/screenshots/gallery.png) |
 
 ### What the site includes
 
